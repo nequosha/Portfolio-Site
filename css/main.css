@@ -1,0 +1,90 @@
+body, html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family:'Montserrat', sans-serif;
+    background-color: #617281;
+
+}
+
+body{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1,h2, h3{
+    color: #02b3e4;
+}
+
+h3, p, figcaption{
+    color:#dce5ec;
+}
+
+header{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: column;
+
+    /** Horizontal Row**/
+    border-bottom: 2px solid #7d97ad;
+    border-bottom-style: outset;
+    margin-bottom: 30px;
+}
+
+
+.myname{
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.track{
+    justify-content: flex-end;
+    margin: 0;
+}
+#codingpic{
+    padding: 5px 10px 5px 20px;
+    max-width: 80%;
+}
+
+
+.featuredwork{
+    display: inline-block;
+    max-width: 100%;
+    padding: 10px 10px 10px 5px;
+    
+}
+#gettingsmart{
+    padding: 12px;
+    font-size: 0.8em;
+    justify-content: center;
+}
+footer{
+    text-align: center;
+    padding: 3em;
+}
+
+.footer-text{
+    font-size: 0.8em;
+}
+
+
+@media screen and (min-width: 1000px){
+    .featuredwork{
+        margin:1.5em auto;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 550px){
+     .featuredwork{
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 1em;
+
+    }
+}
